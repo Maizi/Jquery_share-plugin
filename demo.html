@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+    <meta name="Keywords" content="分享，微博分享，贴吧分享，QQ空间分享，口袋分享"/>
+    <meta name="Description" content="专题专用分享，支持分享到新浪微博、QQ空间、百度贴吧"/>
+    <title>分享</title>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/share.css" rel="stylesheet">
+</head>
+<body>
+	<div class="demo fs14">
+		<p>分享功能在专题中使用频率较高，网上的分享插件冗余代码过多，so整理了适合项目的jquery分享插件</p>
+		<p class="mt20">功能描述：支持新浪微博分享、腾讯微博分享（已弃疗）、贴吧分享、qq空间分享</p>
+		<p class="mt20">参数说明：</p>
+		<p>elem[array]   -- 分享方式，默认为['sina', 'qzone', 'tieba', 'wx', 'kd']</p>
+		<p>title[string] -- 分享标题</p>
+		<p>desc[string]  -- 分享描述</p>
+		<p>pics[string]  -- 分享配图</p>
+		<p class="mt20">使用方式：<br/><code>$('#J_clShare').share({'elem': ['kd', 'sina', 'tieba', 'qzone'], 'title': '此处为分享标题', 'desc': '此处为分享描述', 'pics': '此处为分享图片url'})</code></p>
+		<p class="tips mt20">TIPS:本地测试无效，需在服务器环境下操作</p>
+		<p class="mt20">DEMO:</p>
+	</div>
+
+
+
+    <div id="J_clShare" class="cl-share clearfix"></div>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/share.js"></script>
+	<script>
+	$('#J_clShare').share({'elem': ['kd', 'sina', 'tieba', 'qzone'], 'title': '封魔卷藏山海，应龙舞断长空，仙人左慈遭囚，何人能救苍生？英雄，该为这个世界做点什么了！@梦三国OL。', 'pics': 'http://static.m3guo.com/m3guo/version/201508/images/sns.jpg'});	
+	</script>
+</body>
+</html>

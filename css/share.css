@@ -1,0 +1,12 @@
+body{background: #000;}
+
+    .demo{margin:50px auto;width:800px;color:#ddd;line-height:24px;}
+    .tips{color:#f60;}
+
+    .cl-share{margin:100px auto;width:200px;}
+	.cl-share a{float:left;margin-right:10px;width:28px;height:28px;background: url(../images/sns.png) no-repeat 0 0;}
+    .cl-share .sina{background-position:-28px 0;}
+    .cl-share .tieba{background-position: -56px 0;}
+    .cl-share .qzone{background-position: -84px 0;}
+    .cl-share .kd{background-position:0 0;}
+    .cl-share .kd span{position:absolute;left:-65px;bottom:-120px;opacity:0;filter:alpha(opacity=0);_display:none;width:102px;height:112px;background:url(../images/sns.png) 0 -56px;}
